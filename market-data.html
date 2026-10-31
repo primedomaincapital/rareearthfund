@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rare Earth Metal Prices, Supply, and Production — Market Data | rareearthfund.com</title>
+<meta name="description" content="Rare earth prices, U.S. production, imports, and consumption from the USGS Mineral Commodity Summaries.">
+<link rel="canonical" href="https://rareearthfund.com/market-data">
+<meta property="og:title" content="Rare Earth Metal Prices, Supply, and Production — Market Data | rareearthfund.com">
+<meta property="og:description" content="Rare earth prices, U.S. production, imports, and consumption from the USGS Mineral Commodity Summaries.">
+<meta property="og:url" content="https://rareearthfund.com/market-data">
+<meta property="og:type" content="website">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,300;0,600;1,300&amp;family=IBM+Plex+Mono:wght@300;400;500&amp;family=Inter:wght@300;400;500&amp;display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Rare earth prices, supply, and production \u2014 USGS figures",
+  "url": "https://rareearthfund.com/market-data",
+  "description": "U.S. rare-earth production, import, consumption, and average oxide prices summarized from the USGS Mineral Commodity Summaries 2025 and 2026.",
+  "temporalCoverage": "2024/2025",
+  "dateModified": "2026-10-31",
+  "creator": {
+    "@type": "Organization",
+    "name": "Prime Domain Capital"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Prime Domain Capital"
+  }
+}
+</script>
+<style>
+
+:root{--earth:#1a1410;--amber:#d99a3d;--bone:#f2ece1;--rust:#8a5a2b}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{font-family:'Inter',sans-serif;background:var(--bone);color:var(--earth);overflow-x:hidden}
+nav{position:fixed;top:0;width:100%;z-index:100;display:flex;justify-content:space-between;align-items:center;padding:1.2rem 3rem;background:rgba(26,20,16,.92);backdrop-filter:blur(12px)}
+nav .b{font-family:'Fraunces',serif;color:var(--bone);font-size:1.05rem;letter-spacing:.08em}
+nav .b em{color:var(--amber);font-style:normal}
+nav a{background:var(--amber);color:var(--earth);padding:.6rem 1.7rem;text-decoration:none;font-size:.82rem;letter-spacing:.1em;font-weight:600;border-radius:2px;transition:.3s}
+nav a:hover{transform:translateY(-2px);box-shadow:0 10px 26px rgba(217,154,61,.45)}
+.hero{position:relative;min-height:100vh;display:flex;align-items:center;overflow:hidden;color:#fff}
+.hero-video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:0}
+.hero .sh{position:absolute;inset:0;background:linear-gradient(100deg,rgba(26,20,16,.88) 20%,rgba(26,20,16,.35) 70%)}
+.hero .in{position:relative;z-index:2;max-width:1150px;margin:0 auto;padding:7rem 3rem 4rem;width:100%}
+.hero .ey{font-family:'IBM Plex Mono',monospace;font-size:.72rem;letter-spacing:.34em;color:var(--amber);margin-bottom:1.4rem}
+.hero h1{font-family:'Fraunces',serif;font-size:clamp(2.7rem,6.6vw,5.3rem);font-weight:300;line-height:1.08;max-width:700px}
+.hero h1 em{font-style:italic;color:var(--amber)}
+.hero p{margin:1.5rem 0 2.4rem;max-width:560px;font-weight:300;font-size:1.08rem;opacity:.9}
+.btn{display:inline-block;padding:1rem 2.9rem;text-decoration:none;font-size:.9rem;letter-spacing:.08em;font-weight:600;border-radius:2px;transition:.3s}
+.btn-a{background:var(--amber);color:var(--earth)}
+.btn-a:hover{transform:translateY(-3px);box-shadow:0 12px 30px rgba(217,154,61,.5)}
+.btn-o{border:1px solid rgba(255,255,255,.4);color:#fff;margin-left:1rem}
+.btn-o:hover{border-color:var(--amber);color:var(--amber)}
+section{position:relative;z-index:1;max-width:1150px;margin:0 auto;padding:7rem 3rem}
+.rv{opacity:0;transform:translateY(36px);transition:.85s ease}
+.rv.on{opacity:1;transform:none}
+.ey2{font-family:'IBM Plex Mono',monospace;font-size:.7rem;letter-spacing:.3em;color:var(--rust);text-transform:uppercase;margin-bottom:1.1rem}
+h2{font-family:'Fraunces',serif;font-size:clamp(2rem,4vw,3.3rem);font-weight:300;line-height:1.18;margin-bottom:1.3rem}
+h2 em{font-style:italic;color:var(--rust)}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:3.6rem;align-items:center}
+.two img{width:100%;border-radius:3px;box-shadow:0 20px 55px rgba(26,20,16,.22)}
+.two p{margin-bottom:1.1rem;color:#4a3f33;font-size:1.02rem;font-weight:300}
+.element{font-family:'Fraunces',serif;font-style:italic;font-size:1.6rem;color:var(--earth);background:rgba(217,154,61,.12);border-left:3px solid var(--amber);padding:1.4rem 1.8rem;margin:1.8rem 0;line-height:1.5}
+.deposit{display:grid;grid-template-columns:repeat(4,1fr);gap:1.2rem;margin:3rem 0}
+.deposit .d{background:var(--earth);color:var(--bone);border-radius:3px;padding:2rem 1.4rem;text-align:center;transition:.3s}
+.deposit .d:hover{transform:translateY(-5px);box-shadow:0 16px 40px rgba(26,20,16,.3)}
+.deposit .sym{font-family:'IBM Plex Mono',monospace;font-size:1.6rem;color:var(--amber);font-weight:500}
+.deposit .nm{font-size:.78rem;margin-top:.5rem;opacity:.75}
+.deposit .use{font-size:.72rem;color:var(--amber);margin-top:.3rem;font-family:'IBM Plex Mono',monospace}
+.seam{display:grid;grid-template-columns:repeat(3,1fr);gap:1.2rem;margin:2.5rem 0}
+.seam img{width:100%;height:300px;object-fit:cover;border-radius:3px;transition:.45s;filter:sepia(.15)}
+.seam img:hover{filter:sepia(0);transform:scale(1.02)}
+.veins{display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem;margin-top:2rem}
+.vcard{border:1px solid rgba(138,90,43,.3);border-radius:3px;padding:2.4rem;background:rgba(255,255,255,.4);transition:.3s}
+.vcard:hover{background:#fff;transform:translateY(-5px)}
+.vcard .mono{font-family:'IBM Plex Mono',monospace;font-size:.7rem;letter-spacing:.24em;color:var(--rust)}
+.vcard h3{font-family:'Fraunces',serif;font-size:1.35rem;margin:.8rem 0 .6rem;font-weight:400}
+.vcard p{font-size:.92rem;color:#5a4d3d;font-weight:300}
+.lode{background:var(--earth);border-radius:6px;padding:5rem 3rem;text-align:center;color:var(--bone);margin:3rem 0}
+.lode .pr{font-family:'Fraunces',serif;font-size:3.4rem;color:var(--amber);margin:1.2rem 0}
+footer{background:#120d09;color:rgba(242,236,225,.5);text-align:center;padding:2.6rem;font-size:.84rem}
+footer a{color:var(--amber);text-decoration:none}
+@media(max-width:860px){.two,.veins,.seam{grid-template-columns:1fr}.deposit{grid-template-columns:repeat(2,1fr)}section{padding:4rem 1.5rem}nav{padding:1rem 1.2rem}.btn-o{margin-left:0;margin-top:.8rem}.hero .in{padding:6rem 1.5rem 3rem}}
+
+
+.data-wrap{max-width:1080px;margin:0 auto;padding:120px 24px 40px}
+.data-wrap h1{overflow-wrap:break-word;word-break:break-word;line-height:1.08}
+.data-wrap h2{overflow-wrap:break-word;word-break:break-word;margin:38px 0 14px}
+.data-wrap p{line-height:1.7;margin:0 0 14px}
+.stamp{display:inline-block;font-size:13px;letter-spacing:.12em;text-transform:uppercase;border:1px solid currentColor;padding:8px 14px;margin:14px 0 22px;opacity:.9}
+.lede{font-size:19px;line-height:1.65}
+.fig{border:1px solid rgba(128,128,128,.35);padding:18px 20px;margin:0 0 14px}
+.fig b{font-size:26px;overflow-wrap:break-word}
+.fig .lbl{font-size:13px;letter-spacing:.14em;text-transform:uppercase;opacity:.75}
+.trend{display:inline-block;font-size:14px;font-weight:600;margin-top:6px}
+.trend.up{color:#2e7d32}.trend.down{color:#b3261e}.trend.flat{color:#666}
+.prior{font-size:14px;opacity:.8}
+.src{font-size:14px;margin-top:8px}
+.src a{overflow-wrap:break-word;word-break:break-word}
+table.data{width:100%;border-collapse:collapse;margin:14px 0}
+table.data th,table.data td{border:1px solid rgba(128,128,128,.35);padding:10px 12px;text-align:left;vertical-align:top;overflow-wrap:break-word}
+table.data th{font-size:13px;letter-spacing:.08em;text-transform:uppercase}
+.note{border-left:4px solid #c87533;padding:14px 18px;margin:24px 0}
+.cta-row{display:flex;gap:14px;flex-wrap:wrap;margin:26px 0}
+.cta-row a{display:inline-block;padding:14px 26px;min-height:44px;line-height:1.3;text-decoration:none;font-weight:600}
+.changelog{margin-top:40px;border-top:1px solid rgba(128,128,128,.35);padding-top:20px}
+.changelog li{margin:0 0 10px;line-height:1.6}
+@media(max-width:600px){
+ .data-wrap{padding:100px 16px 30px}
+ .fig b{font-size:22px}
+ table.data,table.data tbody,table.data tr,table.data th,table.data td{display:block;width:100%}
+ table.data tr{margin-bottom:12px}
+ table.data th{display:none}
+ table.data td{border-bottom:none}
+ table.data td:last-child{border-bottom:1px solid rgba(128,128,128,.35)}
+ .cta-row a{width:100%;text-align:center}
+}
+
+
+/* Phase 1 assembly 2026-10-31 */
+@media (max-width:900px){h1{font-size:clamp(44px,11vw,72px)!important}}
+
+/* Phase 1 assembly 2026-10-31 — nav solid correction */
+@media (max-width:900px){nav{background:rgb(26,20,16)!important;backdrop-filter:none!important}}
+</style>
+<style>
+/* Mobile rendering fix 2026-10-31: domain H1 lines, stacked nav, header clearance */
+@media (max-width:900px){
+main h1{overflow-wrap:normal!important;word-break:normal!important}
+nav:not(.toc){flex-direction:column!important;align-items:flex-start!important;gap:4px!important;padding-top:16px!important;padding-bottom:16px!important;padding-left:20px!important;padding-right:20px!important}
+.topbar{flex-direction:column!important;align-items:flex-start!important;gap:4px!important;padding-top:16px!important;padding-bottom:16px!important;padding-left:20px!important;padding-right:20px!important}
+main{padding-top:120px!important}
+main h1{font-size:clamp(30px,8.5vw,58px)!important;line-height:1.15!important}
+}
+</style>
+</head>
+<body>
+<nav><div class="b">RARE<em>EARTH</em>FUND</div><a href="https://www.afternic.com/domain/rareearthfund.com">ACQUIRE — $12,888</a></nav>
+<main class="data-wrap">
+<p class="stamp">Last updated: October 31, 2026</p>
+<h1>Rare Earth Metal Prices, Supply, and Production</h1>
+<p class="lede">America mined a record tonnage of rare earths in 2025 and got paid less for it. In this market, that sentence is not a contradiction.</p>
+<h2>Production: more tons, fewer dollars</h2><p>The United States mined more rare earths in 2025 than in any year in the USGS series — and earned less for them. The 2026 Mineral Commodity Summaries put 2025 domestic production at an estimated 51,000 metric tons of rare-earth-oxide equivalent, up from 45,000 tons in 2024, valued at $240 million against $260 million the year before. Volume up, value down: the classic signature of a market where prices, not output, set the story. Bastnaesite from Mountain Pass, California, remains the primary domestic source, with monazite from southeastern heavy-mineral sands alongside it.</p><div class="fig"><div class="lbl">U.S. rare-earth mine production, 2025 estimate</div><b>51,000 metric tons REO</b><div><span class="trend up">▲ Up from 45,000 tons in 2024</span></div><div class="prior">Prior year (2024): 45,000 tons.</div><div class="src">USGS Mineral Commodity Summaries 2026 — <a href="https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-rare-earths_ver.1.2.pdf">source</a></div></div><div class="fig"><div class="lbl">Value of U.S. mine production, 2025 estimate</div><b>$240 million</b><div><span class="trend down">▼ Down from $260 million in 2024</span></div><div class="prior">Prior year (2024): $260 million.</div><div class="src">USGS Mineral Commodity Summaries 2026 — <a href="https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-rare-earths_ver.1.2.pdf">source</a></div></div><div class="fig"><div class="lbl">U.S. imports of rare-earth compounds, 2025 estimate</div><b>21,000 metric tons</b><div><span class="trend up">▲ Up sharply from 8,120 tons in 2024</span></div><div class="prior">Prior year (2024): 8,120 tons. Import value fell to $165 million from $168 million, reflecting a shift toward lower-value imported products.</div><div class="src">USGS Mineral Commodity Summaries 2026 — <a href="https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-rare-earths_ver.1.2.pdf">source</a></div></div><div class="fig"><div class="lbl">U.S. apparent consumption, compounds and metals, 2025 estimate</div><b>27,000 metric tons</b><div><span class="trend up">▲ Up from 9,010 tons in 2024</span></div><div class="prior">Prior year (2024): 9,010 tons.</div><div class="src">USGS Mineral Commodity Summaries 2026 — <a href="https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-rare-earths_ver.1.2.pdf">source</a></div></div><h2>Prices: the heavy elements diverge</h2><p>Light rare earths are cheap by the kilogram; heavy rare earths are not, and the gap widened in 2025. USGS average prices for 2025 show terbium oxide at $1,010 per kilogram, up from $812 in 2024, while dysprosium oxide eased to $239 from $257. At the other end of the table, lanthanum oxide averaged about $1.00 per kilogram and cerium oxide $1.71. The lesson for anyone reading a single 'rare earth price' headline: there is no such thing. Seventeen elements, seventeen markets, and the ones that matter for magnets trade at multiples of the ones that matter for catalysts — which is why the leading domestic end use (catalysts) and the leading global end use (magnets) point to different price tables.</p><table class="data"><tr><th>Oxide (average price, $/kg)</th><th>2025 estimate</th><th>2024</th><th>Direction</th></tr><tr><td>Terbium oxide, 99.99% min.</td><td>$1,010</td><td>$812</td><td>Up</td></tr><tr><td>Dysprosium oxide, 99.5% min.</td><td>$239</td><td>$257</td><td>Down</td></tr><tr><td>Holmium oxide, 99.5% min.</td><td>$70</td><td>$67</td><td>Up</td></tr><tr><td>Erbium oxide, 99.5% min.</td><td>$46</td><td>$43</td><td>Up</td></tr><tr><td>Lutetium oxide, 99.99% min.</td><td>$888</td><td>$780</td><td>Up</td></tr><tr><td>Lanthanum oxide, 99.5% min.</td><td>$1.00</td><td>$0.97</td><td>Up</td></tr><tr><td>Cerium oxide, 99.5% min.</td><td>$1.71</td><td>$1.21</td><td>Up</td></tr></table><p class="src">Source for all oxide prices: USGS Mineral Commodity Summaries 2026 — <a href="https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-rare-earths_ver.1.2.pdf">source</a></p><h2>Spot assessments and policy floors — different basis from the USGS annual averages above</h2><p>USGS figures above are 2025 annual averages. The rows below are dated spot assessments and contract floors from other sources; they are not comparable to the USGS averages and must not be read as updates to them.</p><table class="data"><tr><th>Figure</th><th>Value</th><th>Trend / basis</th><th>Source</th></tr><tr><td>Neodymium oxide, 2025 average</td><td>About $73/kg (99.5% minimum)</td><td>● Baseline (2025 average)</td><td><a href="https://farmonaut.com/mining/neodymium-price-per-kg-2021-2026-global-trends">USGS MCS 2026 estimate, as reported via this summary</a></td></tr><tr><td>Neodymium-praseodymium (NdPr) oxide, 2025 average</td><td>About $69/kg</td><td>● Baseline (2025 average)</td><td><a href="https://farmonaut.com/mining/neodymium-price-per-kg-2021-2026-global-trends">USGS MCS 2026 estimate, as reported via this summary</a></td></tr><tr><td>Pr-Nd oxide, Shanghai Metals Market quote</td><td>737,000–739,000 yuan per tonne, about $110/kg</td><td>● Baseline (Sept 24, 2026 quote)</td><td><a href="https://farmonaut.com/mining/neodymium-price-per-kg-2021-2026-global-trends">SMM quote, as reported via this summary</a></td></tr><tr><td>Terbium oxide, ex-China CIP global assessment</td><td>$5,000–$8,000/kg</td><td>▲ Up 41% in the week to Oct 1, 2026 (assessment basis only — not comparable to the USGS 2025 average of $1,010/kg)</td><td><a href="https://farmonaut.com/mining/neodymium-price-per-kg-2021-2026-global-trends">Fastmarkets assessment, as reported via this summary</a></td></tr><tr><td>Dysprosium oxide, ex-China assessment</td><td>$2,500–$3,500/kg (99.5%, delivered outside China)</td><td>▲ Up (Q3 2026 CIF Europe average $3,500/kg, a 56% quarterly gain — not comparable to the USGS 2025 average of $239/kg)</td><td><a href="https://farmonaut.com/mining/dysprosium-mines-cost-global-2026-challenges">Fastmarkets assessment Oct 1, 2026, as reported via this summary</a></td></tr><tr><td>Dysprosium oxide, ex-China CIF Europe quarterly average</td><td>$3,500/kg average for the quarter, a 56% gain</td><td>▲ Up 56% (Q3 2026, Benchmark review basis)</td><td><a href="https://www.sourcebyspec.com/news/dytb-vs-ndpr-price-volatility-a-3-7x-to-17x-premium-and-a-wider-swing-range.html">Benchmark Q3 2026 review, as reported via this summary</a></td></tr><tr><td>US price floors (policy, not market prices)</td><td>NdPr $110/kg; dysprosium $575/kg; terbium $2,050/kg, each escalating 2% annually</td><td>Floor (policy), not a market price</td><td><a href="https://theinnovationattorney.com/rare-earth-price-floor/">July 2025 MP Materials package and Aug 24, 2026 Serra Verde vehicle, as reported via this summary</a></td></tr></table><p>One small number carries outsized weight. Samarium oxide sold for an estimated $2.82 per kilogram in 2025, according to the 2026 USGS summaries as cited by the Colorado School of Mines' Payne Institute — yet a USGS disruption model ranked samarium the mineral whose one-year supply loss would cost U.S. GDP the most, nearly $4.5 billion in 2023 dollars, because of its role in high-temperature samarium-cobalt magnets. Price and strategic importance, in this market, barely correlate.</p>
+<div class="note"><strong>Methodology.</strong> Figures below come only from the named public sources linked beside each figure. Where a source publishes a prior-period figure from the same series, the trend indicator compares against it. Where it does not, the figure is labelled as an October 2026 baseline and trend tracking starts with the next refresh. No proprietary dataset is reproduced in full: figures are summarized with attribution, and ranges are reported as published. Paywalled tables and login-gated data are excluded.</div>
+<div class="note"><strong>Disclaimer.</strong> These are aggregated public estimates for information only. They are not investment, financial, legal, or professional advice, and they are not a quote for any service. Verify current figures with the original source before acting on them.</div>
+<div class="note"><strong>Freshness.</strong> This page is refreshed on its stated cadence (see SOURCES.md) and only when new or changed figures are available. A refresh never changes only the date. The site sitemap's lastmod entry for this page is updated on every refresh once the page is deployed.</div>
+<section class="changelog"><h2>Changelog</h2><ul>
+<li><strong>October 2026:</strong> First edition. Figures compiled from the public sources listed below; trend baselines set where no prior-period figure was published by the same source.</li>
+<li><strong>October 31, 2026:</strong> USGS annual figures unchanged (MCS 2026 still latest edition); added dated spot assessments (SMM, Fastmarkets, Benchmark) and US price floors in a separately labeled section; neodymium averages added, closing the staged gap.</li>
+</ul></section>
+<h2>Sources</h2>
+<ul><li>USGS Mineral Commodity Summaries 2026, Rare Earths — <a href="https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-rare-earths_ver.1.2.pdf">https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-rare-earths_ver.1.2.pdf</a></li><li>USGS Mineral Commodity Summaries 2025, Rare Earths — <a href="https://pubs.usgs.gov/periodicals/mcs2025/mcs2025-rare-earths_ver.1.0.pdf">https://pubs.usgs.gov/periodicals/mcs2025/mcs2025-rare-earths_ver.1.0.pdf</a></li><li>Payne Institute (Colorado School of Mines) on samarium and the USGS disruption model — <a href="https://payneinstitute.mines.edu/the-most-vulnerable-mineral-in-americas-arsenal-costs-three-dollars-a-kilogram/">https://payneinstitute.mines.edu/the-most-vulnerable-mineral-in-americas-arsenal-costs-three-dollars-a-kilogram/</a></li><li>Neodymium / NdPr averages and SMM quote, as reported via Farmonaut — <a href="https://farmonaut.com/mining/neodymium-price-per-kg-2021-2026-global-trends">https://farmonaut.com/mining/neodymium-price-per-kg-2021-2026-global-trends</a></li><li>Dysprosium assessments, as reported via Farmonaut — <a href="https://farmonaut.com/mining/dysprosium-mines-cost-global-2026-challenges">https://farmonaut.com/mining/dysprosium-mines-cost-global-2026-challenges</a></li><li>Benchmark Q3 2026 review, as reported via SourceBySpec — <a href="https://www.sourcebyspec.com/news/dytb-vs-ndpr-price-volatility-a-3-7x-to-17x-premium-and-a-wider-swing-range.html">https://www.sourcebyspec.com/news/dytb-vs-ndpr-price-volatility-a-3-7x-to-17x-premium-and-a-wider-swing-range.html</a></li><li>US price floors, as reported via The Innovation Attorney — <a href="https://theinnovationattorney.com/rare-earth-price-floor/">https://theinnovationattorney.com/rare-earth-price-floor/</a></li></ul>
+<div class="cta-row">
+<a href="https://www.afternic.com/domain/rareearthfund.com">Buy rareearthfund.com — $12,888</a>
+<a href="mailto:info@primedomaincapital.com">Contact: info@primedomaincapital.com</a>
+</div>
+<p><a href="https://rareearthfund.com/">Back to rareearthfund.com</a></p>
+</main>
+<footer>Offered by <strong>Prime Domain Capital</strong> · <a href="mailto:info@primedomaincapital.com">info@primedomaincapital.com</a></footer>
+<!-- Cloudflare Web Analytics --><script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "1407571ec8bc45c3a082c91096558135"}'></script><!-- End Cloudflare Web Analytics -->
+</body>
+</html>
